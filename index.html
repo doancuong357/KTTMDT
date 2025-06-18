@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- <p> thẻ mở, chứa class, id, style,.. 
+         ghi nội dung giữa thẻ mở và thẻ đóng </p> thẻ đóng -->
+    
+    <!-- Phân biệt thẻ inline và thẻ block
+         Thẻ block: xếp chồng lên nhau
+         Thẻ inline: Xếp liền kề nhau
+         Ctrl + / (tạo ghi chú) -->
+    
+    <p style="background-color: aqua;">IS385 - block</p>
+    <p style="background-color: rgb(106, 91, 150);">
+      Ky Thuat Thuong Mai Dien Tu - block
+    </p>
+
+    <span style="background-color: rgb(131, 47, 86);">
+      IS385 - inline
+    </span><br>
+    <span style="background-color: rgb(123, 110, 59);">
+      Ky Thuat Thuong Mai Dien Tu - inline
+    </span><br>
+
+    ////////////////////////////////////////////// <br>
+
+    <!-- Thẻ xuống dòng và đường kẻ ngang 
+         Thẻ xuống dòng: <br>
+         Thẻ đường kẻ ngang: <hr>
+         => không cần dùng thẻ đóng -->
+
+    <span style="background-color: rgb(131, 47, 86);">
+      IS385 - inline
+    </span><br>
+    <span style="background-color: rgb(123, 110, 59);">
+      Ky Thuat Thuong Mai Dien Tu - inline
+    </span><hr>
+
+    <!-- Thẻ tiêu đề 
+         6 cấp độ: h1(lớn nhất) -> h6(nhỏ nhất) -->
+    <h1>Tieu de 1</h1>
+    <h2>Tieu de 2</h2>
+    <h3>Tieu de 3</h3>
+    <h4>Tieu de 4</h4>
+    <h5>Tieu de 5</h5>
+    <h6>Tieu de 6</h6>
+    <!-- Thẻ a: liên kết -->
+    <p>
+      Truy cập trang web: 
+      <a href="https://mydtu.duytan.edu.vn/Signin.aspx"> 
+        Nhấn vào đây
+      </a>
+    </p>
+
+    <!-- Thẻ img: chèn hình ảnh -->
+    <p>
+      Đây là hình ảnh ví dụ:
+      <br>
+    <img src="https://hoanghamobile.com/tin-tuc/wp-content/uploads/2024/11/tai-hinh-nen-dep-mien-phi.jpg" alt="Hình ảnh ví dụ" width="150">
+
+    <img src="./img/anh1.png" alt="Hình ảnh ví dụ 22" width="150">
+    </p>
+    <b>đại học duy tân</b>
+    <br>
+    <i>đại học duy tân</i>
+      <br>
+    <u>đại học duy tân</u>
+    <br>
+    <s>đại học duy tân</s>
+    <br>
+    <strike>đại học duy tân</strike>
+    <br>
+    <strong>đại học duy tân</strong>
+    <br>
+    <em>đại học duy tân</em>
+    <!-- tạo bảng table 
+     tr:table row
+     td: table data
+     th:table head-->
+    <table border="1" style="border-collapse: collapse;">
+        <tr>
+            <th>STT</th>
+            <th>Tên</th>
+            <th>Tuổi</th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>Nguyễn Văn A</td>
+            <td>20</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>Trần Thị B</td>
+            <td>22</td>
+        </tr>
+    </table>
+    <!-- danh sách
+     ul-li ds không thứ tự
+     ol-li ds có thứ tu -->
+     <!-- disk, circle, square -->
+    <ul type="circle">
+        <li>Danh sách không thứ tự 1</li>
+        <li>Danh sách không thứ tự 2</li>
+        <li>Danh sách không thứ tự 3</li>
+    </ul>
+    <!--  Kiểu hiển thị : A a i 1 I -->
+    <ol type="1" start="1">
+        <li>Danh sách có thứ tự 1</li>
+        <li>Danh sách có thứ tự 2</li>
+        <li>Danh sách có thứ tự 3</li>
+    </ol>
+    <!-- radio $ checkbox 
+     name trùng nhau thì chỉ đươch chọn 1 trong 2-->
+     <input type="radio" name="1"  id="radio1" value="radio1" checked>Anh
+      <input type="radio" name="1"  id="radio2" value="radio2">Chị <br>
+      <input type="checkbox" name=""  id="" value="">A <br>
+      <input type="checkbox" name=""  id="" value="">B <br>
+      <input type="checkbox" name=""  id="" value="">C <br>
+      <input type="text" name="" id="text1" placeholder="Nhập nội dung tìm kiếm">
+      <input type="submit" name="" id="text2">
+      <input type="reset" name="" id="text3"> 
+
+</body>
+</html>
