@@ -68,7 +68,7 @@ h1{
 }
 
 .r1-left {
-    width: 25%;
+    width: 29%;
     margin-right: 10px;
 }
 
@@ -92,7 +92,7 @@ h1{
 .r1-right a{
     color: rgb(255, 255, 255);
     text-decoration: none;
-    font-size: 21px;
+    font-size: 17px;
     font-weight: bold;
 }
 .r1-right a:hover{
